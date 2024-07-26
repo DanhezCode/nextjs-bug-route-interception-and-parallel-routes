@@ -1,3 +1,5 @@
+Reporting a nextjs bug in route interception and parallel routes, it works well in the development environment but does not work in the production environment with the dynamic segment [locale] or similar
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
