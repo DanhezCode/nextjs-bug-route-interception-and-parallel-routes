@@ -3,6 +3,11 @@ import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useState } from "react";
 
 function SignInModalPage() {
+  // I also tried with a much more minimalist version only exporting a
+  // text and no interactivity and it still gave me the same error, the
+  // problem is in the dynamic segment [locale] if I delete it with
+  // exactly the same example it works perfectly fine
+
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(true);
 
