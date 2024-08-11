@@ -2,7 +2,7 @@
 import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useState } from "react";
 
-function SignInModalPage() {
+function ModalPage() {
   // I also tried with a much more minimalist version only exporting a
   // text and no interactivity and it still gave me the same error, the
   // problem is in the dynamic segment [locale] if I delete it with
@@ -37,12 +37,10 @@ function SignInModalPage() {
         open={isOpen}
         className="w-11/12 max-w-80 flex flex-col justify-center items-center gap-4 p-6 rounded-lg bg-gray-100"
       >
-        <button className={`w-full py-2 px-4`}>SignInModalPage</button>
-
-        <button className={`w-full py-2 px-4`}>SignInModalPage</button>
+        Modal 1
       </dialog>
     </div>
   );
 }
 
-export default SignInModalPage;
+export default ModalPage;

@@ -1,4 +1,6 @@
-Reporting a nextjs bug in route interception and parallel routes, it works well in the development environment but does not work in the production environment with the dynamic segment [locale] or similar
+Reporting a nextjs bug in route interception and parallel routes, it works well in the development environment but does not work in the production environment with the dynamic segment [locale] or similar.
+
+I had to update this repo because I missed generatingStaticParams which was the real trigger of the problem and I simplified the example even more by placing only two buttons that should open the modal in one case a client modal and in another a server modal, which helped me do tests
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
